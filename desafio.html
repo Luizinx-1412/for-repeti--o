@@ -1,0 +1,13 @@
+<script>
+let qtndNotas = Number(prompt(`informe sua quantidade de notas `));
+let soma = 0;
+
+for (let nota = 1 ; nota <= qtndNotas ; nota ++){
+ let notas = Number(prompt(`informe sua ${nota}° nota`));
+
+ soma += notas
+}
+
+
+document.write(`sua media é ${soma / qtndNotas}`);
+</script>
